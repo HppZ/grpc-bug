@@ -9,7 +9,7 @@
   <Identity
     Name="70c3c481-71ac-419e-99fa-ad3e2b365f21"
     Publisher="CN=haopeng"
-    Version="1.0.0.0" />
+    Version="1.1.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="70c3c481-71ac-419e-99fa-ad3e2b365f21" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
