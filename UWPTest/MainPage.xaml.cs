@@ -34,8 +34,20 @@ namespace UWPTest
         public MainPage()
         {
             this.InitializeComponent();
-            Class1.A();
+            Loaded += MainPage_Loaded;
         }
 
+        private async  void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+               await Class1.A();
+                Block1.Text = "ok";
+            }
+            catch (Exception exception)
+            {
+                Block1.Text = $"{exception.Message}";
+            }
+        }
     }
 }
